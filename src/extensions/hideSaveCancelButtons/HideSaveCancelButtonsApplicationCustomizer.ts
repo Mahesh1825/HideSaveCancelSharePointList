@@ -1,12 +1,7 @@
-import { Log } from '@microsoft/sp-core-library';
+
 import {
-  BaseApplicationCustomizer
+ BaseApplicationCustomizer
 } from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
-
-import * as strings from 'HideSaveCancelButtonsApplicationCustomizerStrings';
-
-const LOG_SOURCE: string = 'HideSaveCancelButtonsApplicationCustomizer';
 
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
@@ -24,24 +19,14 @@ export default class HideSaveCancelButtonsApplicationCustomizer
 
   public onInit(): Promise<void> {
     console.log("HideSaveCancelButtons extension initialized");
-    Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-
-    let message: string = this.properties.testMessage;
-    if (!message) {
-      message = '(No properties were provided.)';
-    }
-
-    Dialog.alert(`Hello from new update ${strings.Title}:\n\n${message}`).catch(() => {
-      /* handle error */
-    });
+    
 
 
        // Add CSS to hide Save and Cancel
     const style = document.createElement("style");
     style.innerHTML = `
       button[title="Save"],
-      button[title="Cancel"],
-      button[title="Close"] {
+      button[title="Cancel"] {
         display: none !important;
       }
     `;
