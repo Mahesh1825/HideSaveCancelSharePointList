@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# HideSaveCancelSharePointList
-This code is to Hide Save Cancel Buttons in PowerApps Customized sharepoint list form
-=======
 # hide-save-cancel-buttons
 
 ## Summary
@@ -12,7 +8,13 @@ Short summary on functionality and used technologies.
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.21.1-green.svg)
+![version](https://img.shields.io/badge/version-1.21.1-green.svg)mahesh@MacBookAir HideSaveCancelButtons % git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
 
 ## Applies to
 
@@ -75,4 +77,3 @@ This extension illustrates the following concepts:
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
->>>>>>> 5c92ab2 (Initial commit)

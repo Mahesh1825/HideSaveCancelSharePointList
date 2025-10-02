@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HideSaveCancelButtons"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="ca5ffe85-5dc7-4e65-ab21-45ffe7b48614"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
