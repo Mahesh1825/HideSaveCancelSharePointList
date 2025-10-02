@@ -118,7 +118,7 @@ var HideSaveCancelButtonsApplicationCustomizer = /** @class */ (function (_super
         console.log("HideSaveCancelButtons extension initialized");
         // Add CSS to hide Save and Cancel
         var style = document.createElement("style");
-        style.innerHTML = "\n      button[title=\"Save\"],\n      button[title=\"Cancel\"] {\n        display: none !important;\n      }\n    ";
+        style.innerHTML = "\n      button[title=\"Save\"],\n      button[title=\"Cancel\"],\n      label[title = \"New Item\"] {\n        display: none !important;\n      }\n    ";
         document.head.appendChild(style);
         return Promise.resolve();
     };

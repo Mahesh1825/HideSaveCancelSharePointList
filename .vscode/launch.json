@@ -5,7 +5,7 @@
       "name": "Hosted workbench",
       "type": "msedge",
       "request": "launch",
-      "url": "https://14201116canadainc.sharepoint.com/_layouts/workbench.aspx",
+      "url": "https://14201116canadainc.sharepoint.com/sites/AyaanshBday/Lists/Employee%20onboarding/NewForm.aspx?Source=https%3A%2F%2F14201116canadainc.sharepoint.com%2Fsites%2FAyaanshBday%2FLists%2FEmployee%2520onboarding%2FAllItems.aspx%3FdebugManifestsFile%3Dhttps%253A%252F%252Flocalhost%253A4321%252Ftemp%252Fbuild%252Fmanifests%252Ejs%26loadSPFX%3Dtrue%26customActions%3D%257B%2522ca5ffe85%252D5dc7%252D4e65%252Dab21%252D45ffe7b48614%2522%253A%257B%2522location%2522%253A%2522ClientSideExtension%252EApplicationCustomizer%2522%252C%2522properties%2522%253A%257B%2522testMessage%2522%253A%2522Test%2520message%2522%257D%257D%257D&ContentTypeId=0x0100C478133FA3C60B4AAF744F54BBCC666A0064E7C27889A6B74EBD64FED91FC8E9D1&RootFolder= ",
       "webRoot": "${workspaceRoot}",
       "sourceMaps": true,
       "sourceMapPathOverrides": {

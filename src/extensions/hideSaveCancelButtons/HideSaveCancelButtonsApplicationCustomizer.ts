@@ -26,8 +26,12 @@ export default class HideSaveCancelButtonsApplicationCustomizer
     const style = document.createElement("style");
     style.innerHTML = `
       button[title="Save"],
-      button[title="Cancel"] {
-        display: none !important;
+      button[title="Cancel"],
+      div[role="heading"],
+      span[title="New Item"],
+      label[title="New Item"]
+      {
+      display: none !important;
       }
     `;
     document.head.appendChild(style);
