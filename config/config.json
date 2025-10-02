@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-save-cancel-buttons-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideSaveCancelButtons/HideSaveCancelButtonsApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideSaveCancelButtons/HideSaveCancelButtonsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideSaveCancelButtonsApplicationCustomizerStrings": "lib/extensions/hideSaveCancelButtons/loc/{locale}.js"
+  }
+}

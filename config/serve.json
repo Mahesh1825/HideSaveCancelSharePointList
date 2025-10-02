@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://14201116canadainc.sharepoint.com/sites/AyaanshBday/Lists/Employee%20onboarding/AllItems.aspx",
+      "customActions": {
+        "ca5ffe85-5dc7-4e65-ab21-45ffe7b48614": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "hideSaveCancelButtons": {
+      "pageUrl": "https://14201116canadainc.sharepoint.com/sites/AyaanshBday/Lists/Employee%20onboarding/AllItems.aspx",
+      "customActions": {
+        "ca5ffe85-5dc7-4e65-ab21-45ffe7b48614": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

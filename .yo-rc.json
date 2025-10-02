@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "hide-save-cancel-buttons",
+    "libraryId": "5fe7d2ae-70fa-4fcf-b82d-f08da32b4216",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "hide-save-cancel-buttons",
+    "solutionShortDescription": "hide-save-cancel-buttons description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
